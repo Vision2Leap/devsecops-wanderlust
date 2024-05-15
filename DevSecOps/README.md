@@ -31,10 +31,11 @@
 - Trivy installed <br>
     - Reference: <b> <a href="https://github.com/DevMadhup/Trivy_Installation_and_implementation/blob/main/README.md"><u>Trivy Installation</a></u></b>
 
-sudo snap install trivy (ubuntu)
-trivy fs --format table -o trivy-fs-report.html
-trivy image --format table -o trivy-image-report.html <REGISTRY NAME/repository NAME:TAG> .
-
+```bash
+    sudo snap install trivy (ubuntu)
+    trivy fs --format table -o trivy-fs-report.html
+    trivy image --format table -o trivy-image-report.html <REGISTRY NAME/repository NAME:TAG> .
+```
 
 - SonarQube Server installed
 ```bash
